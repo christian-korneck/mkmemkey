@@ -32,4 +32,4 @@ ERROR: The system was unable to find the specified registry key or value.
 ```
 
 # compatibility
-Any app (i.e. regedit.exe, reg.exe, etc) should be able to create Registry *Values* under a memkey and also delete memkeys. However, most apps can **not** create **Subkeys** below a memkey (as such subkeys need to be created as volatile keys, too). Instead, `memkey.exe` can be used to create volatile Subkeys.
+Any app (i.e. regedit.exe, reg.exe, etc) should be able to create Registry *Values* under a memkey and also delete memkeys. However, most apps can **not** create **Subkeys** below a memkey (as such subkeys need to be created as volatile keys, too). Instead, `mkmemkey.exe` can be used to create volatile Subkeys.
